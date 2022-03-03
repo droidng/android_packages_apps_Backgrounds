@@ -13,6 +13,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <array name="wallpapers" translatable="false">
+        <item>lineage</item>
         <item>abstract_ink</item>
         <item>abstract_orderofchaos</item>
         <item>abstract_spacestory</item>
