@@ -23,6 +23,26 @@
         	    src="@drawable/internal"
         	    title="@string/wallpaper_internal"
         	    subtitle1="@string/author_qirkl" />
+		<static-wallpaper
+        	    id="usif0"
+        	    src="@drawable/usif0"
+        	    title="@string/wallpaper_usif0"
+        	    subtitle1="@string/author_usif" />
+		<static-wallpaper
+        	    id="usif1"
+        	    src="@drawable/usif1"
+        	    title="@string/wallpaper_usif1"
+        	    subtitle1="@string/author_usif" />
+		<static-wallpaper
+        	    id="usif2"
+        	    src="@drawable/usif2"
+        	    title="@string/wallpaper_usif2"
+        	    subtitle1="@string/author_usif" />
+		<static-wallpaper
+        	    id="usif3"
+        	    src="@drawable/usif3"
+        	    title="@string/wallpaper_usif3"
+        	    subtitle1="@string/author_usif" />
 	</category>
 	<category id="MaterialYou" title="@string/category_mdyou" featured="mdyou0">
 		<static-wallpaper
