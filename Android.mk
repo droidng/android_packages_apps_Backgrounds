@@ -35,7 +35,7 @@ LOCAL_RESOURCE_DIR += $(LOCAL_PATH)/res_1080p/full
 endif
 endif
 
-LOCAL_RESOURCE_DIR += packages/resources/MateriumTranslations/Backgrounds
+LOCAL_RESOURCE_DIR += packages/resources/NgTranslations/Backgrounds
 
 LOCAL_USE_AAPT2 := true
 

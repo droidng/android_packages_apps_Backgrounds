@@ -12,6 +12,13 @@
 -->
 
 <resources>
+	<category id="LogoWalls2" title="@string/category_logo2" featured="default_wallpaper2">
+		<static-wallpaper
+        	    id="default_wallpaper2"
+        	    src="@drawable/default_wallpaper"
+        	    title="@string/wallpaper_default"
+        	    subtitle1="@string/author_qirkl" />
+	</category>
 	<category id="LogoWalls" title="@string/category_logo" featured="logo">
 		<static-wallpaper
         	    id="logo"
