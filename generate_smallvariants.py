@@ -1,15 +1,12 @@
 #!/usr/bin/env python3
-import imghdr
 import os
 
 from PIL import Image
 
 path = os.path.dirname(os.path.realpath(__file__))
 
-resources = ["res_1080p/common/drawable-nodpi",
-             "res_1080p/full/drawable-nodpi",
-             "res_1440p/common/drawable-nodpi",
-             "res_1440p/full/drawable-nodpi"]
+resources = ["res_1080p/drawable-nodpi",
+             "res_1440p/drawable-nodpi"]
 
 def generate_smallvariants(resource):
     global path
@@ -18,11 +15,6 @@ def generate_smallvariants(resource):
     wallpapers = os.listdir(wallpapers_path)
 
     for wallpaper in wallpapers:
-        # Test if the wallpaper is a valid jpeg file
-        if imghdr.what(os.path.join(wallpapers_path, wallpaper)) != "jpeg":
-            print(os.path.join(resource, wallpaper) + " is not a valid jpeg file")
-            continue
-
         # Append _small.jpg to the wallpaper
         wallpaper_small = os.path.splitext(wallpaper)[0] + "_small.jpg"
         wallpaper_small_path = os.path.join(wallpapers_path, wallpaper_small)
